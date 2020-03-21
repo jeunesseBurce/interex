@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Interex logo" src="./assets/interex-logo.jpg" width="300" height="300">
+    <MoodBoard />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MoodBoard from './components/MoodBoard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MoodBoard
   }
 }
 </script>
