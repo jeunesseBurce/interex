@@ -1,12 +1,18 @@
 <template>
   <div class="mood">
     <h1> The mood board for your interests. </h1>
+    <Music />
   </div>
 </template>
 
 <script>
+import Music from './Music.vue'
+
 export default {
-  name: 'MoodBoard'
+  name: 'MoodBoard',
+  components: {
+    Music
+  }
 }
 </script>
 
