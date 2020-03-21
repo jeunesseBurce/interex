@@ -1,4 +1,5 @@
-# interex
+![](src/assets/interex-logo.jpg)
+# The mood board for your interests
 
 ## Project setup
 ```
